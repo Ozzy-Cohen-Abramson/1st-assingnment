@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Landing page</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="left-colunm">
+        <div class="title">
+          <h2 class="left-title">SaaS Kit</h2>
+        </div>
+        <!--end of title-->
+        <div class="avatar">
+          <img class="avatar-img" src="./img/profile_photo.png" alt="" />
+          <div class="avatar-text">
+            <h3 class="avatar-name">Sierra Ferguson</h3>
+            <h4 class="avatar-mail">s.ferguson@gmail.com</h4>
+          </div>
+        </div>
+        <!-- end of avatar-->
+        <div class="navbar">
+          <div class="navbar-item">
+            <img class="icon" src="./img/dashboard.svg" alt="" />
+            <h3 class="active">Dashboard</h3>
+          </div>
+          <div class="navbar-item">
+            <img class="icon" src="./img/tasks.svg" alt="" />
+            <h3>Tasks</h3>
+          </div>
+          <div class="navbar-item">
+            <img class="icon" src="./img/email.svg" alt="" />
+            <h3>Email</h3>
+          </div>
+          <div class="navbar-item">
+            <img class="icon" src="./img/contact.svg" alt="" />
+            <h3>Contact</h3>
+          </div>
+          <div class="navbar-item">
+            <img class="icon" src="./img/chat.svg" alt="" />
+            <h3>Chat</h3>
+          </div>
+          <div class="navbar-item">
+            <img class="icon" src="./img/deals.svg" alt="" />
+            <h3>Deals</h3>
+          </div>
+        </div>
+        <!-- eמd of navbar-->
+        <div class="settings">
+          <img class="icon" src="./img/settings.svg" alt="" />
+          <h3>Settings</h3>
+        </div>
+        <!-- eמd of settings-->
+        <div class="bottom-sidebar">
+          <div class="icon-bottom">
+            <img src="./img/toggle.svg" alt="">
+          </div>
+          <h3 class="toggle">Toggle sidebar</h3>
+        </div> <!-- end of bottom sidebar -->
+      </div>
+      <!-- eמd of left-->
+      <div class="right-colunm">
+        <div class="input-wrapper">
+          <div class="left-input">
+            <input
+              type="text"
+              placeholder="&#xF002;    Global Search"
+              style="font-family: poppins, FontAwesome"
+            />
+          </div>
+          <div class="right-input">
+            <img class="bell-icon" src="./img/bell.svg" alt="" />
+            <div class="red"></div>
+          </div>
+        </div>
+        <!--end of input wrapper-->
+        <div class="rectangle-wrapper">
+          <div class="tasks-wrapper box">
+            <div class="progress">
+              <div class="progress-text">
+                <h5 class="bar-title">8 tasks completed out of 10</h5>
+                <div class="selector-container">
+                  <label class="selector-label" for="progress">Show:</label>
+                  <select name="progress" id="progress">
+                    <option value="day">This Day</option>
+                    <option value="month">This Month</option>
+                    <option value="year">This Year</option>
+                    <option value="decade">This Decade</option>
+                  </select>
+                </div>
+              </div>
+              <div class="progress-bar">
+                <div class="grey-bar">
+                  <div class="green-bar"></div>
+                </div>
+              </div>
+              <!-- end of progress bar -->
+            </div>
+            <!-- end of progress-->
+            <div class="calander">
+              <div class="calander-title">
+                <h4>23 December, sunday</h4>
+              </div>
+              <div class="calander-week">
+                <div class="day">
+                  <div class="day-title"><h6>Sun</h6></div>
+                  <div class="day-date"><h6 class="marked-date">23</h6></div>
+                </div>
+                <div class="day">
+                  <div class="day-title"><h6 class="monday">Mon</h6></div>
+                  <div class="day-date"><h6 class="monday">24</h6></div>
+                </div>
+                <div class="day">
+                  <div class="day-title"><h6>Tue</h6></div>
+                  <div class="day-date"><h6>25</h6></div>
+                </div>
+                <div class="day">
+                  <div class="day-title"><h6>wed</h6></div>
+                  <div class="day-date"><h6>26</h6></div>
+                </div>
+                <div class="day">
+                  <div class="day-title"><h6>Thu</h6></div>
+                  <div class="day-date"><h6>27</h6></div>
+                </div>
+                <div class="day">
+                  <div class="day-title"><h6>Fri</h6></div>
+                  <div class="day-date"><h6>28</h6></div>
+                </div>
+                <div class="day">
+                  <div class="day-title"><h6>Sat</h6></div>
+                  <div class="day-date"><h6>29</h6></div>
+                </div>
+              </div>
+            </div>
+            <!-- end of calander -->
+            <div class="tasks-information">
+              <div class="task-container">
+                <div class="task">
+                  <div class="task-text">
+                    <h5>Send benefit review by sunday</h5>
+                    <h6 class="due-date-wrapper">
+                      Due date: <span class="due-date">December 23, 2018</span>
+                    </h6>
+                    <div class="worker-wrapper">
+                      <img
+                        class="worker-img"
+                        src="./img/task_img_1.png"
+                        alt=""
+                      />
+                      <h5 class="worker-name">George Fields</h5>
+                    </div>
+                  </div>
+                  <!-- end of task text-->
+                  <div class="task-buttons">
+                    <h5 class="reminder">Reminder</h5>
+                    <button class="completed">Completed</button>
+                  </div>
+                </div>
+                <!-- end of task 1-->
+                <div class="task">
+                  <div class="task-text">
+                    <h5>Invite to office meet-up</h5>
+                    <h6 class="due-date-wrapper">
+                      Due date: <span class="due-date">December 23, 2018</span>
+                    </h6>
+                    <div class="worker-wrapper">
+                      <img
+                        class="worker-img"
+                        src="./img/task_img_3.png"
+                        alt=""
+                      />
+                      <h5 class="worker-name">Rebecca Moore</h5>
+                    </div>
+                  </div>
+                  <!-- end of task text-->
+                  <div class="task-buttons">
+                    <h5 class="reminder">Call</h5>
+                    <div class="bottom-button">
+                      <img class="edit" src="./img/edit.svg" alt="" />
+                      <img class="garbage" src="./img/garbage.svg" alt="" />
+                      <button class="ended">Ended</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- end of task 2-->
+                <div class="task">
+                  <div class="task-text">
+                    <h5>Office met-up</h5>
+                    <h6 class="due-date-wrapper">
+                      Due date: <span class="due-date">December 23, 2018</span>
+                    </h6>
+                    <div class="worker-wrapper">
+                      <img
+                        class="worker-img"
+                        src="./img/associated_photo.png"
+                        alt=""
+                      />
+                      <h5 class="worker-name">Lindsey Stroud</h5>
+                    </div>
+                  </div>
+                  <!-- end of task text-->
+                  <div class="task-buttons">
+                    <h5 class="reminder-lind">Reminder</h5>
+                    <button class="completed">Completed</button>
+                  </div>
+                </div>
+                <!-- end of task 3-->
+              </div>
+              <!-- end of task container -->
+              <div class="show-more">
+                <h3>Show more</h3>
+              </div>
+            </div>
+            <!-- end of information -->
+          </div>
+          <!--end of tasks-->
+          <div class="charts-wrapper">
+            <div class="deals-wrapper box">
+              <div class="head">
+                <h3>Deals</h3>
+                <div class="selector-container">
+                  <label class="selector-label" for="deals">Show:</label>
+                  <select name="deals" id="deals">
+                    <option value="day">Daily</option>
+                    <option value="month">Monthly</option>
+                    <option value="year">Year</option>
+                    <option value="decade">Decade</option>
+                  </select>
+                </div>
+              </div>
+              <div class="body-deals">
+                <h5>
+                  <span><img src="./img/Ellipse 2.svg" alt="" /></span>Closed
+                  deals
+                </h5>
+                <div class="deals-graph-wrapper">
+                  <img class="deals-graph" src="./img/deals_graphic.svg" alt="" />
+                </div>
+                
+              </div>
+            </div>
+            <!--end of deals-->
+            <div class="round-wrapper box">
+              <div class="head">
+                <h3>Tasks</h3>
+                <div class="selector-container">
+                  <label class="selector-label" for="tasks">Show:</label>
+                  <select name="tasks" id="tasks">
+                    <option value="day">This Day</option>
+                    <option value="month">This Month</option>
+                    <option value="year">This Year</option>
+                    <option value="decade">This Decade</option>
+                  </select>
+                </div>
+              </div>
+              <div class="body-eclipse">
+                <div class="eclipse-wrapper">
+                  <img class="eclipse" src="./img/Group 1.svg" alt="" />
+                </div>
+                <div class="map-wrapper">
+                  <div class="map-item">
+                    <img src="./img/eclipse-yellow.svg" alt="" />
+                    <h6 class="map-exp">Active</h6>
+                  </div>
+                  <div class="map-item">
+                    <img src="./img/eclipse-green.svg" alt="" />
+                    <h6 class="map-exp">Completed</h6>
+                  </div>
+                  <div class="map-item">
+                    <img src="./img/eclipse-red.svg" alt="" />
+                    <h6 class="map-exp">Ended</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of round-->
+          </div>
+        </div>
+      </div>
+      <!-- eמd of right-->
+    </div>
+    <!-- end of page wrapper-->
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
